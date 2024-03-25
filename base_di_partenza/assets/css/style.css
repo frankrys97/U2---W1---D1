@@ -200,61 +200,58 @@ footer a {
 }
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
-    header nav li {
-        display: inline-block;
-        margin-inline: 5px;
-    }
-    h1 {
-        font-size: 2.3em;
-        line-height: 1em;
-    }
-    main {
-        font-size: 1.35em;
-    }
-    section h2 {
-        background-color: rgb(146, 146, 146);
-    }
-    table {
-        width: 90%;
-    
-    }
-    input {
-        width: 50%;
-        padding-block: 10px;
-      }
-      button {
-        width: 30%;
-        padding-block: 10px;
-      }
-    
+  header nav li {
+    display: inline-block;
+    margin-inline: 5px;
+  }
+  h1 {
+    font-size: 2.3em;
+    line-height: 1em;
+  }
+  main {
+    font-size: 1.35em;
+  }
+  section h2 {
+    background-color: rgb(146, 146, 146);
+  }
+  table {
+    width: 90%;
+  }
+  input {
+    width: 50%;
+    padding-block: 10px;
+  }
+  button {
+    width: 30%;
+    padding-block: 10px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1199px) {
-    header nav li {
-        display: inline-block;
-        margin-inline: 5px;
-    }
-    h1 {
-        font-size: 3.4em;
-        line-height: 1em;
-    }
-    table {
-        margin-inline: auto
-        ;
-        width: 80%;
-    }
-    section h2 {
-        background-color: rgb(146, 146, 146);
-    }
+  header nav li {
+    display: inline-block;
+    margin-inline: 5px;
+  }
+  h1 {
+    font-size: 3.4em;
+    line-height: 1em;
+  }
+  table {
+    margin-inline: auto;
+    width: 80%;
+  }
+  section h2 {
+    background-color: rgb(146, 146, 146);
+  }
 
-    input {
-        width: 80%;
-        padding-block: 10px;
-      }
-      button {
-        width: 10%;
-        padding-block: 10px;
-      }
+  input {
+    width: 80%;
+    padding-block: 10px;
+  }
+  button {
+    width: 10%;
+    padding-block: 10px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -282,8 +279,9 @@ footer a {
   .img-container p {
     display: inline-block;
     margin: 0;
-    width: 60%;
-    font-size: 1em;  }
+    width: 50%;
+    font-size: 1em;
+  }
   header nav {
     margin-right: 30px;
   }
@@ -351,8 +349,18 @@ footer a {
   }
 
   footer {
-
     padding-inline: 215px;
     padding-block: 30px;
   }
 }
+
+@media print {
+  header,
+  iframe,
+  aside,
+  footer, section, form {
+    display: none;
+  }
+}
+
+
